@@ -4,7 +4,7 @@
         "year": 2017,
         "questionNumber": 3,
         "subject": "Algorithms",
-        "topic": null,
+        "topic": "Time Complexity",
         "questionType": "multiple-choice",
         "question": "Match the algorithms with their time complexities:\n$$\\begin{array}{|l|l|}\\hline \\textbf{Algorithms}  &  \\textbf{Time Complexity} \\\\\\hline  \\text{P. Tower of Hanoi with $n$ disks} & \\text{i. $\\Theta (n^2)$} \\\\\\hline  \\text{Q. Binary Search given $n$ sorted numbers} & \\text{ii. $\\Theta (n \\log n)$} \\\\\\hline \\text{R. Heap sort given $n$ numbers at the worst case} & \\text{iii. $\\Theta (2^n)$} \\\\\\hline \\text{S. Addition of two $n\\times n$ matrices} & \\text{iv. $\\Theta (\\log n)$} \\\\\\hline \\end{array}$$",
         "options": [
@@ -13,9 +13,9 @@
             "$P\\rightarrow (iii) \\quad  Q \\rightarrow(iv) \\quad r \\rightarrow(ii) \\quad S\\rightarrow(i)$",
             "$P\\rightarrow (iv) \\quad  Q \\rightarrow(iii)\\quad  r \\rightarrow(ii) \\quad  S\\rightarrow(i)$"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [2],
         "answerText": null,
-        "difficulty": null,
+        "difficulty": "easy",
         "marks": null,
         "tags": [
             "/algorithms",
@@ -41,7 +41,7 @@
         "year": null,
         "questionNumber": 9,
         "subject": "Algorithms",
-        "topic": null,
+        "topic": "Sorting",
         "questionType": "multiple-choice",
         "question": "An input files has $10$ records with keys as given below:\n$25\\quad 7\\quad 34\\quad  2\\quad  70\\quad  9\\quad  61\\quad  16\\quad  49\\quad  19$\nThis is to be sorted in non-decreasing order.",
         "options": [
@@ -76,7 +76,7 @@
         "year": null,
         "questionNumber": 14,
         "subject": "Algorithms",
-        "topic": null,
+        "topic": "Graph",
         "questionType": "multiple-choice",
         "question": "The following algorithm (written in pseudo-pascal) work on an undirected graph $G$\n\nprogram Explore (G)\n procedure Visit (u)\n   begin\n        if Adj (u) is not empty\n           {comment:Adj (u) is the list of edges incident to u}\n        then\n             begin\n                  Select an edge from Adj (u);\n                  Let edge be e=(u, v)\n                  remove e from Adj (u) and Adj (v);\n                  Visit (v);\n            end\n        else\n                  mark u as a finished vertex and remove u from LIST\n                  {Comment: LIST is the set of vertices in the graph}\n   end;\n begin\n     While LIST is not empty\n       do\n            begin\n                 Let v ∊ LIST;\n                 Visit (v);\n    end\nend.\nNote: Initially $Adj(u)$ is the list of all edges incident to $u$ and LIST is the set of all vertices in the graph. They are globally accessible.\n\nWhat kind of subgraphs are obtained when this algorithm traverses the graphs $G_{1}$ and $G_{2}$ shown in Fig$.(6)$ and Fig$.(7)$ respectively?",
         "options": [
@@ -85,7 +85,7 @@
         ],
         "correctAnswer": [],
         "answerText": null,
-        "difficulty": null,
+        "difficulty": "Hard",
         "marks": null,
         "tags": [
             "/algorithms",
@@ -110,15 +110,15 @@
         "year": 2007,
         "questionNumber": 26,
         "subject": "Algorithms",
-        "topic": null,
+        "topic": "Time Complexity",
         "questionType": "multiple-choice",
         "question": "Consider the following segment of C-code:\n\nint j, n;\nj = 1;\nwhile (j <= n)\n    j = j * 2;\nThe number of comparisons made in the execution of the loop for any $n > 0$ is:\n\n\n$\\lceil \\log_2n \\rceil +1$\n\n\n$n$\n\n\n$\\lceil \\log_2n \\rceil$",
         "options": [
             "$\\lfloor \\log_2n \\rfloor +1$"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [3],
         "answerText": null,
-        "difficulty": null,
+        "difficulty": "Easy",
         "marks": null,
         "tags": [
             "/algorithms",
